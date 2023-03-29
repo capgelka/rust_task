@@ -1,0 +1,277 @@
+ Running benches/benchmark.rs (target/release/deps/benchmark-46b48bd9dee9ebdb)
+parallel_map/rayon_dup_150
+                        time:   [11.716 µs 11.885 µs 12.081 µs]
+                        change: [-10.796% -7.5293% -3.9571%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 15 outliers among 100 measurements (15.00%)
+  6 (6.00%) high mild
+  9 (9.00%) high severe
+Benchmarking parallel_map/crossbeam_chan_dup_150: Collecting 100 samples in estimated 5.1949 s (61k iteratparallel_map/crossbeam_chan_dup_150
+                        time:   [81.498 µs 82.654 µs 84.049 µs]
+                        change: [-6.0900% -4.2002% -2.1584%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 6 outliers among 100 measurements (6.00%)
+  3 (3.00%) high mild
+  3 (3.00%) high severe
+Benchmarking parallel_map/crossbeam_n_fast_dup_150: Collecting 100 samples in estimated 5.1477 s (56k iterparallel_map/crossbeam_n_fast_dup_150
+                        time:   [93.477 µs 94.607 µs 95.866 µs]
+                        change: [-9.4282% -7.2295% -4.8485%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 7 outliers among 100 measurements (7.00%)
+  5 (5.00%) high mild
+  2 (2.00%) high severe
+parallel_map/CHAT_GPT_dup_150
+                        time:   [75.777 µs 76.967 µs 78.198 µs]
+Found 4 outliers among 100 measurements (4.00%)
+  3 (3.00%) high mild
+  1 (1.00%) high severe
+parallel_map/simple_dup_150
+                        time:   [948.68 ns 957.90 ns 969.39 ns]
+                        change: [-4.2125% -2.7024% -1.1975%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 14 outliers among 100 measurements (14.00%)
+  9 (9.00%) high mild
+  5 (5.00%) high severe
+parallel_map/rayon_fib_150
+                        time:   [18.699 µs 18.978 µs 19.293 µs]
+                        change: [-10.304% -6.7656% -2.9252%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 18 outliers among 100 measurements (18.00%)
+  4 (4.00%) high mild
+  14 (14.00%) high severe
+Benchmarking parallel_map/crossbeam_chan_fib_150: Collecting 100 samples in estimated 5.2730 s (61k iteratparallel_map/crossbeam_chan_fib_150
+                        time:   [86.374 µs 87.951 µs 89.774 µs]
+                        change: [+3.8159% +36.224% +80.720%] (p = 0.04 < 0.05)
+                        Performance has regressed.
+Found 14 outliers among 100 measurements (14.00%)
+  5 (5.00%) high mild
+  9 (9.00%) high severe
+Benchmarking parallel_map/crossbeam_fast_fib_150: Collecting 100 samples in estimated 5.1977 s (56k iteratparallel_map/crossbeam_fast_fib_150
+                        time:   [92.147 µs 93.585 µs 95.008 µs]
+                        change: [-9.7246% -6.3993% -3.2756%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 6 outliers among 100 measurements (6.00%)
+  3 (3.00%) high mild
+  3 (3.00%) high severe
+parallel_map/CHAT_GPT_fib_150
+                        time:   [83.528 µs 85.009 µs 86.735 µs]
+                        change: [-1.6024% +1.2657% +4.3926%] (p = 0.44 > 0.05)
+                        No change in performance detected.
+Found 7 outliers among 100 measurements (7.00%)
+  3 (3.00%) high mild
+  4 (4.00%) high severe
+parallel_map/simple_fib_150
+                        time:   [22.212 µs 22.363 µs 22.574 µs]
+                        change: [-0.8355% +0.1745% +1.1648%] (p = 0.75 > 0.05)
+                        No change in performance detected.
+Found 8 outliers among 100 measurements (8.00%)
+  4 (4.00%) high mild
+  4 (4.00%) high severe
+parallel_map/rayon_dup_1000
+                        time:   [21.685 µs 22.032 µs 22.466 µs]
+                        change: [+5.0106% +8.4435% +12.300%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+Found 5 outliers among 100 measurements (5.00%)
+  3 (3.00%) high mild
+  2 (2.00%) high severe
+Benchmarking parallel_map/crossbeam_chan_dup_1000: Collecting 100 samples in estimated 5.2639 s (40k iteraparallel_map/crossbeam_chan_dup_1000
+                        time:   [132.61 µs 134.64 µs 136.75 µs]
+                        change: [+0.8355% +2.8346% +4.9830%] (p = 0.01 < 0.05)
+                        Change within noise threshold.
+Found 5 outliers among 100 measurements (5.00%)
+  4 (4.00%) high mild
+  1 (1.00%) high severe
+Benchmarking parallel_map/crossbeam_n_fast_dup_1000: Collecting 100 samples in estimated 5.3449 s (61k iteparallel_map/crossbeam_n_fast_dup_1000
+                        time:   [84.538 µs 86.250 µs 88.167 µs]
+                        change: [+0.6150% +3.6197% +6.1297%] (p = 0.01 < 0.05)
+                        Change within noise threshold.
+Found 11 outliers among 100 measurements (11.00%)
+  8 (8.00%) high mild
+  3 (3.00%) high severe
+parallel_map/CHAT_GPT_dup_1000
+                        time:   [79.928 µs 80.930 µs 82.048 µs]
+Found 6 outliers among 100 measurements (6.00%)
+  3 (3.00%) high mild
+  3 (3.00%) high severe
+parallel_map/simple_dup_1000
+                        time:   [6.2136 µs 6.2691 µs 6.3413 µs]
+                        change: [-4.5557% -2.3835% -0.4253%] (p = 0.02 < 0.05)
+                        Change within noise threshold.
+Found 3 outliers among 100 measurements (3.00%)
+  2 (2.00%) high mild
+  1 (1.00%) high severe
+parallel_map/rayon_fib_1000
+                        time:   [64.166 µs 65.665 µs 67.399 µs]
+                        change: [-3.0565% +1.1067% +4.9616%] (p = 0.59 > 0.05)
+                        No change in performance detected.
+Found 10 outliers among 100 measurements (10.00%)
+  8 (8.00%) high mild
+  2 (2.00%) high severe
+Benchmarking parallel_map/crossbeam_chan_fib_1000: Collecting 100 samples in estimated 5.5085 s (25k iteraparallel_map/crossbeam_chan_fib_1000
+                        time:   [209.87 µs 213.17 µs 216.89 µs]
+                        change: [-5.7443% -3.3631% -1.1131%] (p = 0.01 < 0.05)
+                        Performance has improved.
+Found 3 outliers among 100 measurements (3.00%)
+  2 (2.00%) high mild
+  1 (1.00%) high severe
+Benchmarking parallel_map/crossbeam_fast_fib_1000: Collecting 100 samples in estimated 5.2222 s (40k iteraparallel_map/crossbeam_fast_fib_1000
+                        time:   [123.99 µs 126.39 µs 128.87 µs]
+                        change: [-5.1018% -2.2240% +0.5575%] (p = 0.14 > 0.05)
+                        No change in performance detected.
+Found 9 outliers among 100 measurements (9.00%)
+  5 (5.00%) high mild
+  4 (4.00%) high severe
+parallel_map/CHAT_GPT_fib_1000
+                        time:   [129.86 µs 133.02 µs 137.08 µs]
+                        change: [-6.8419% -3.7506% -0.1748%] (p = 0.03 < 0.05)
+                        Change within noise threshold.
+Found 5 outliers among 100 measurements (5.00%)
+  2 (2.00%) high mild
+  3 (3.00%) high severe
+parallel_map/simple_fib_1000
+                        time:   [137.70 µs 138.77 µs 140.17 µs]
+                        change: [-5.0151% -3.6525% -2.1670%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 13 outliers among 100 measurements (13.00%)
+  3 (3.00%) high mild
+  10 (10.00%) high severe
+parallel_map/rayon_dup_5000
+                        time:   [73.181 µs 75.399 µs 77.546 µs]
+                        change: [+3.7671% +7.3806% +11.244%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high severe
+Benchmarking parallel_map/crossbeam_chan_dup_5000: Collecting 100 samples in estimated 5.8892 s (20k iteraparallel_map/crossbeam_chan_dup_5000
+                        time:   [261.41 µs 266.59 µs 272.78 µs]
+                        change: [-7.5529% -4.8446% -2.0470%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 7 outliers among 100 measurements (7.00%)
+  2 (2.00%) high mild
+  5 (5.00%) high severe
+Benchmarking parallel_map/crossbeam_n_fast_dup_5000: Collecting 100 samples in estimated 5.3490 s (45k iteparallel_map/crossbeam_n_fast_dup_5000
+                        time:   [116.34 µs 117.81 µs 119.54 µs]
+                        change: [-4.5827% -1.1574% +2.0682%] (p = 0.52 > 0.05)
+                        No change in performance detected.
+Found 10 outliers among 100 measurements (10.00%)
+  1 (1.00%) low mild
+  3 (3.00%) high mild
+  6 (6.00%) high severe
+parallel_map/CHAT_GPT_dup_5000
+                        time:   [123.44 µs 125.42 µs 127.73 µs]
+Found 9 outliers among 100 measurements (9.00%)
+  5 (5.00%) high mild
+  4 (4.00%) high severe
+parallel_map/simple_dup_5000
+                        time:   [31.701 µs 32.127 µs 32.627 µs]
+                        change: [-1.9676% +0.0406% +1.9911%] (p = 0.96 > 0.05)
+                        No change in performance detected.
+Found 8 outliers among 100 measurements (8.00%)
+  4 (4.00%) high mild
+  4 (4.00%) high severe
+parallel_map/rayon_fib_5000
+                        time:   [284.20 µs 288.88 µs 293.92 µs]
+                        change: [-9.3676% -6.0885% -2.8847%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 6 outliers among 100 measurements (6.00%)
+  4 (4.00%) high mild
+  2 (2.00%) high severe
+Benchmarking parallel_map/crossbeam_chan_fib_5000: Collecting 100 samples in estimated 7.9253 s (10k iteraparallel_map/crossbeam_chan_fib_5000
+                        time:   [769.99 µs 781.53 µs 794.79 µs]
+                        change: [-2.6477% -0.7904% +1.1328%] (p = 0.42 > 0.05)
+                        No change in performance detected.
+Found 12 outliers among 100 measurements (12.00%)
+  7 (7.00%) high mild
+  5 (5.00%) high severe
+Benchmarking parallel_map/crossbeam_fast_fib_5000: Collecting 100 samples in estimated 5.6774 s (15k iteraparallel_map/crossbeam_fast_fib_5000
+                        time:   [358.04 µs 368.24 µs 379.67 µs]
+                        change: [+8.5803% +14.851% +24.159%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+Found 4 outliers among 100 measurements (4.00%)
+  1 (1.00%) high mild
+  3 (3.00%) high severe
+parallel_map/CHAT_GPT_fib_5000
+                        time:   [401.14 µs 411.56 µs 423.41 µs]
+                        change: [+10.875% +15.412% +19.653%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+Found 6 outliers among 100 measurements (6.00%)
+  5 (5.00%) high mild
+  1 (1.00%) high severe
+parallel_map/simple_fib_5000
+                        time:   [718.29 µs 725.13 µs 733.04 µs]
+                        change: [-0.8245% +1.0910% +2.8388%] (p = 0.26 > 0.05)
+                        No change in performance detected.
+Found 5 outliers among 100 measurements (5.00%)
+  3 (3.00%) high mild
+  2 (2.00%) high severe
+parallel_map/rayon_dup_20000
+                        time:   [220.84 µs 224.30 µs 227.80 µs]
+                        change: [-1.3620% +0.9576% +3.2681%] (p = 0.42 > 0.05)
+                        No change in performance detected.
+Found 8 outliers among 100 measurements (8.00%)
+  6 (6.00%) high mild
+  2 (2.00%) high severe
+Benchmarking parallel_map/crossbeam_chan_dup_20000: Collecting 100 samples in estimated 8.3639 s (10k iterparallel_map/crossbeam_chan_dup_20000
+                        time:   [784.44 µs 792.03 µs 800.58 µs]
+                        change: [-7.4156% -5.0793% -2.8867%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 6 outliers among 100 measurements (6.00%)
+  2 (2.00%) high mild
+  4 (4.00%) high severe
+Benchmarking parallel_map/crossbeam_n_fast_dup_20000: Collecting 100 samples in estimated 5.0920 s (20k itparallel_map/crossbeam_n_fast_dup_20000
+                        time:   [250.04 µs 254.95 µs 260.81 µs]
+                        change: [-11.388% -7.8027% -4.4193%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 11 outliers among 100 measurements (11.00%)
+  7 (7.00%) high mild
+  4 (4.00%) high severe
+Benchmarking parallel_map/CHAT_GPT_dup_20000: Collecting 100 samples in estimated 6.5286 s (20k iterationsparallel_map/CHAT_GPT_dup_20000
+                        time:   [303.05 µs 306.83 µs 311.50 µs]
+Found 17 outliers among 100 measurements (17.00%)
+  10 (10.00%) high mild
+  7 (7.00%) high severe
+parallel_map/simple_dup_20000
+                        time:   [122.18 µs 123.02 µs 124.16 µs]
+                        change: [-0.4820% +0.7981% +2.0755%] (p = 0.23 > 0.05)
+                        No change in performance detected.
+Found 13 outliers among 100 measurements (13.00%)
+  1 (1.00%) high mild
+  12 (12.00%) high severe
+Benchmarking parallel_map/rayon_fib_20000: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 5.5s, enable flat sampling, or reduce sample count to 60.
+parallel_map/rayon_fib_20000
+                        time:   [1.0793 ms 1.0990 ms 1.1204 ms]
+                        change: [-3.7448% -0.9387% +1.9231%] (p = 0.53 > 0.05)
+                        No change in performance detected.
+Found 5 outliers among 100 measurements (5.00%)
+  3 (3.00%) high mild
+  2 (2.00%) high severe
+Benchmarking parallel_map/crossbeam_chan_fib_20000: Collecting 100 samples in estimated 5.2661 s (1900 iteparallel_map/crossbeam_chan_fib_20000
+                        time:   [2.7647 ms 2.7883 ms 2.8168 ms]
+                        change: [-1.8659% -0.4695% +1.0532%] (p = 0.53 > 0.05)
+                        No change in performance detected.
+Found 11 outliers among 100 measurements (11.00%)
+  1 (1.00%) high mild
+  10 (10.00%) high severe
+Benchmarking parallel_map/crossbeam_fast_fib_20000: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 6.2s, enable flat sampling, or reduce sample count to 60.
+Benchmarking parallel_map/crossbeam_fast_fib_20000: Collecting 100 samples in estimated 6.1987 s (5050 iteparallel_map/crossbeam_fast_fib_20000
+                        time:   [1.1842 ms 1.2187 ms 1.2605 ms]
+                        change: [-5.5620% +0.7929% +6.6817%] (p = 0.81 > 0.05)
+                        No change in performance detected.
+Found 16 outliers among 100 measurements (16.00%)
+  5 (5.00%) high mild
+  11 (11.00%) high severe
+Benchmarking parallel_map/CHAT_GPT_fib_20000: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 6.4s, enable flat sampling, or reduce sample count to 60.
+Benchmarking parallel_map/CHAT_GPT_fib_20000: Collecting 100 samples in estimated 6.4145 s (5050 iterationparallel_map/CHAT_GPT_fib_20000
+                        time:   [1.3029 ms 1.3310 ms 1.3623 ms]
+Found 9 outliers among 100 measurements (9.00%)
+  7 (7.00%) high mild
+  2 (2.00%) high severe
+parallel_map/simple_fib_20000
+                        time:   [2.8202 ms 2.8530 ms 2.8916 ms]
+Found 9 outliers among 100 measurements (9.00%)
+  4 (4.00%) high mild
+  5 (5.00%) high severe
+
+cargo bench  727.09s user 218.87s system 223% cpu 7:03.43 total
